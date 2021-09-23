@@ -29,3 +29,9 @@ console.log("\nValor da string da segunda letra até a última:", secondToEnd);
 // Retorna N caracteres a partir de uma posição
 const twoCharsBeforeFirstPos = "Texto".substr(0, 2);
 console.log("\nAs duas primeiras letras são:", twoCharsBeforeFirstPos);
+
+const allWithoutLastCharSubstr = "Texto".substr(0, "Texto".length-1);
+console.log(
+  "\nValor da string da primeira letra menos a última:",
+  allWithoutLastCharSubstr
+);
